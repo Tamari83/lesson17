@@ -1,0 +1,30 @@
+.posts{
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.overLay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 70%;
+    display: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.overLay.active{
+    display: block;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
