@@ -28,3 +28,55 @@
     color: red;
     cursor: pointer;
 }
+.add-post{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overLay-add{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:aqua;
+    opacity: 70%;
+    display: none;
+    color: white;
+    text-align: center;
+    font-size: 30px; 
+}
+
+.overLay-add.active-add{
+    display: block;
+}
+.form{
+    display: flex;
+    margin-top: 50px;
+}
+
+.appear-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    opacity: 70%;
+    display: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+appear-div.post-active{
+    display: block;
+}
